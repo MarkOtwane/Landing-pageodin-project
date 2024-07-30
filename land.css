@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: block;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.odin-recipe {
+    background-color: #1f2937;
+}
+.odin-recipe header {
+    font-size: 48px;
+    color: #f9faf8;
+}
+.odin-recipe h1,p,img{
+    display: flex;
+    align-items: center;
+  }
+.odin-recipe h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+.odin-recipe p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.odin-recipe .nav-bar li a {
+    font-size: 18px;
+    color: #f9faf8;
+    display: block;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-bar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+ .odin-recipe img{ 
+    margin-left: 20px;
+    width: 400px;
+    height: 150px;
+  }
+  .image-container {
+    display: flex;
+    flex-wrap: nowrap; /* Ensures images stay in a single row */
+    justify-content: space-around; /* Adjusts spacing between images */
+}
+
+.image-container img {
+    margin: 10px; /* Optional: Adjusts the margin around each image */
+    width: 150px;
+    height: 250px;
+    border-radius: 30px;
+}
+.information h3{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+button{
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 24px;
+    border-radius: 10px;
+}
+.quote{
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: italic;
+    color: #1f2937;
+}
+.odin-recipeArea{
+background-color: #3882f6;
+}
+
+
